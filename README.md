@@ -15,7 +15,7 @@ $ npm run test
 
 ## Build
 ```
-$ node build
+$ node install
 $ npm run build
 ```
 
