@@ -13,7 +13,7 @@
     "build-support": "babel --plugins add-module-exports ./features-es2015/support --out-dir ./features/support -s",
     "build-steps": "babel --plugins add-module-exports ./features-es2015/step_definitions --out-dir ./features/step_definitions -s",
     "build-test": "npm run build-support && npm run build-steps",
-    "pretest": "npm run clean-test && npm run build-test",
+    "pretest":  "npm run build && npm run clean-test && npm run build-test",
     "test": "cucumber-js"
   },
   "author": "Todd Anderson",

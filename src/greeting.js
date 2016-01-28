@@ -1,5 +1,6 @@
 'use strict';
 
 export default name => {
-  console.log('Hello, ' + name + '!');
+  const value = 'Hello, ' + name + '!';
+  return value;
 };
