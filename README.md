@@ -1,5 +1,5 @@
-# Examples in NodeJS and the Grove Kit
-> The intention of this repository is to showcase soem examples of using NodeJS and the Grove Kit board and peripherals.
+# Project Template for using Node 5 with Babel and CucumberJS Testing
+> The intention of this repository is to provide a project temp;ate for using NodeJS 5 with Babel and CucumberJS for testing.
 
 # Quickstart
 ```
