@@ -4,4 +4,4 @@ import path from 'path';
 import greeting from './greeting';
 
 console.log(path.join(process.cwd(), 'hello'));
-greeting('Ted');
+console.log(greeting('World'));
