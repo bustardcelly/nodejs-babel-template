@@ -6,11 +6,14 @@ Object.defineProperty(exports, "__esModule", {
 
 exports.default = function () {
 
+  this.World = _world.World;
   this.Given(/^I have a module I want imported$/, function (callback) {
-    console.log('foo bar baz, accordingly!');
+    console.log('foo bar baz, accordingly' + this.punctuation);
     callback.pending();
   });
 };
+
+var _world = require('../support/world');
 
 ;
 module.exports = exports['default'];
